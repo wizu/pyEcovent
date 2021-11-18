@@ -8,7 +8,7 @@ with open("README.md", 'r') as fp:
 setup(
     name = 'pyEcovent',
     packages = ['ecovent','ecoventv2'],
-    version='0.9.0',
+    version='0.19.1',
     description='Python3 library for single-room energy recovery ventilators from Vents / Blauberg / Flexit',
     long_description=long_description,
     python_requires='>=3.6.7',

@@ -1,5 +1,5 @@
 """ Version  """
-__version__ = "0.9.0"
+__version__ = "0.19.1"
 
 """Library to handle communication with Wifi ecofan from TwinFresh / Blauberg"""
 import socket
