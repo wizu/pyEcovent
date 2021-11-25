@@ -1,5 +1,5 @@
 """ Version  """
-__version__ = "0.19.1"
+__version__ = "0.19.3"
 
 """Library to handle communication with Wifi ecofan from TwinFresh / Blauberg"""
 import socket
@@ -164,7 +164,8 @@ class Fan(object):
         self._id = fan_id
         self._pwd_size = 0
         self._password = password
-        
+        self._state = 'unknown'
+
         if fan_id == "DEFAULT_DEVICEID":
             self.get_param( 'device_search' )
             self._id = self.device_search        
